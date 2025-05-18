@@ -1,5 +1,4 @@
 .headshot {
-    max-width: 250px;
     height: auto;
 }
 
@@ -11,7 +10,10 @@
 @media screen and (min-width: 1024px) {
     .mainHeader {
         font-size: 96px;
-        padding-top: 70px;
+        padding-top: 40px;
+    }
+    .headshot {
+        max-width: 250px;
     }
     .subHeader {
         font-size: 48px;
@@ -30,20 +32,23 @@
 
 @media screen and (min-width: 601px) {
     .navIcons {
-        display: block;
+        float: right;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .navIcons {
-        display: none;
+    .navicons {
+        float: left;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .mainHeader {
         font-size: 80px;
-        padding-top: 80px;
+        padding-top: 50px;
+    }
+    .headshot {
+        max-width: 200px;
     }
     .subHeader {
         font-size: 42px;
@@ -63,7 +68,10 @@
 @media screen and (max-width: 767px) and (min-width: 601px) {
     .mainHeader {
         font-size: 48px;
-        padding-top: 90px;
+        padding-top: 60px;
+    }
+    .headshot {
+        max-width: 150px;
     }
     .subHeader {
         font-size: 36px;
@@ -84,6 +92,9 @@
     .mainHeader {
         font-size: 36px;
         padding-top: 100px;
+    }
+    .headshot {
+        max-width: 100px;
     }
     .subHeader {
         font-size: 30px;
