@@ -7,7 +7,7 @@
 }
 
 /* https://www.w3schools.com/css/css3_mediaqueries.asp */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .mainHeader {
         font-size: 96px;
         padding-top: 40px;
@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .mainHeader {
         font-size: 80px;
         padding-top: 50px;
@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 601px) {
+@media screen and (max-width: 768px) and (min-width: 601px) {
     .mainHeader {
         font-size: 48px;
         padding-top: 60px;
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
     .mainHeader {
         font-size: 36px;
         padding-top: 100px;
