@@ -156,7 +156,7 @@
 }
 
 .boxIcon {
-    flex: 49%; /* 18* for 5 icons */
+    flex: 29%; /* 18* for 5 icons */
 }
 
 .footerIcon {
