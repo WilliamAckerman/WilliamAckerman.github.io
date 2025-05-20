@@ -130,15 +130,13 @@
     justify-items: space-evenly;
 }
 
+.contactCell {
+    flex: 46%;
+}
+
 @media screen and (max-width: 600px) {
     .contactCell {
         flex: 100%;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .contactCell {
-        flex: 46%;
     }
 }
 
