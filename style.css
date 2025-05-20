@@ -25,10 +25,6 @@
     justify-items: space-evenly;
 }
 
-.contactCell {
-    flex: 46%;
-}
-
 .contactLink {
     color: rgb(104, 238, 104);
 }
