@@ -7,6 +7,57 @@
     text-align: center;
 }
 
+.mediaIcon {
+    text-decoration: none;
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactBox {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: space-evenly;
+}
+
+.contactCell {
+    flex: 46%;
+}
+
+.contactLink {
+    color: rgb(104, 238, 104);
+}
+
+.contactLink:hover {
+    color: rgb(57, 194, 57);
+}
+
+.contactLink:visited {
+    color: violet;
+}
+
+.mediaIcons {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.boxIcon {
+    flex: 18%;
+}
+
+.footerIcon {
+    font-size: 36px;
+}
+
 /* https://www.w3schools.com/css/css3_mediaqueries.asp */
 @media screen and (min-width: 1024px) {
     .mainHeader {
@@ -34,6 +85,9 @@
 @media screen and (min-width: 1024px) {
     .navIcons {
         float: right;
+    }
+    .contactCell {
+        flex: 46%;
     }
 }
 
@@ -64,6 +118,9 @@
     .photoArea {
         width: 70%;
     }
+    .contactCell {
+        flex: 46%;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 601px) {
@@ -86,6 +143,9 @@
     }
     .photoArea {
         width: 80%;
+    }
+    .contactCell {
+        flex: 100%;
     }
 }
 
@@ -110,61 +170,7 @@
     .photoArea {
         width: 80%;
     }
-}
-
-.mediaIcon {
-    text-decoration: none;
-    outline: none;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.contactBox {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: space-evenly;
-}
-
-.contactCell {
-    flex: 46%;
-}
-
-@media screen and (max-width: 600px) {
     .contactCell {
         flex: 100%;
     }
-}
-
-.contactLink {
-    color: rgb(104, 238, 104);
-}
-
-.contactLink:hover {
-    color: rgb(57, 194, 57);
-}
-
-.contactLink:visited {
-    color: violet;
-}
-
-.mediaIcons {
-    display: flex;
-    align-items: space-evenly;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.boxIcon {
-    flex: 18%;
-}
-
-.footerIcon {
-    font-size: 36px;
 }
