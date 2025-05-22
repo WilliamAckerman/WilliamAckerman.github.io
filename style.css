@@ -3,6 +3,13 @@
     height: auto;
 }
 
+.photoArea {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+}
+
 .centerText {
     text-align: center;
 }
@@ -23,6 +30,7 @@
     align-items: center;
     justify-content: center;
     justify-items: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contactLink {
@@ -42,7 +50,7 @@
     align-items: space-evenly;
     justify-content: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -148,7 +156,7 @@
 @media screen and (max-width: 601px) {
     .mainHeader {
         font-size: 36px;
-        padding-top: 100px;
+        padding-top: 60px;
     }
     .headshot {
         max-width: 100px;
@@ -167,6 +175,21 @@
         width: 80%;
     }
     .contactCell {
+        flex: 100%;
+    }
+    .footerIcon {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .photoItem {
+        flex: 39%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photoItem {
         flex: 100%;
     }
 }

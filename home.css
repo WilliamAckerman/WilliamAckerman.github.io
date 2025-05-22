@@ -5,6 +5,7 @@
     align-items: center;
     justify-items: space-evenly;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 .previewItem {
@@ -34,8 +35,26 @@
     padding-bottom: 15px;
 }
 
+@media screen and (max-width: 767px) {
+    .serviceBox {
+        flex-wrap: wrap;
+    }
+    .serviceItem {
+        flex: 100%;
+    }
+    .footerHead {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .serviceItem {
+        flex: 30%;
+    }
+}
+
 .serviceItem {
-    flex: 30%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
