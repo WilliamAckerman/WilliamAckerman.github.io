@@ -13,8 +13,8 @@
 }
 
 .previewImg {
-    max-width: 192px;
-    min-width: 192px;
+    max-width: 28%;
+    min-width: auto;
     height: auto;
 }
 
