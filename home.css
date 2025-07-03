@@ -8,13 +8,13 @@
     flex-wrap: wrap;
 }
 
-.previewItem {
+/*.previewItem {
     flex: 32%;
-}
+}*/
 
 .previewImg {
-    max-width: 192px;
-    min-width: 192px;
+    max-width: 100%;
+    min-width: auto;
     height: auto;
 }
 
@@ -84,10 +84,18 @@ ul li {
     .splitItem {
         flex: 49%;
     }
+
+    .previewItem {
+        flex: 32%;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .splitItem {
+        flex: 100%;
+    }
+
+    .previewItem {
         flex: 100%;
     }
 }
