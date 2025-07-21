@@ -204,9 +204,9 @@
     flex-wrap: wrap;
 }
 
-/*.previewItem {
+.previewItem {
     flex: 32%;
-}*/
+}
 
 .previewImg {
     max-width: 30%;
